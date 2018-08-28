@@ -103,7 +103,7 @@ observedproperty_hum = {
     "name": "Humidity",
     "description": "Absolute humidity is the mass of water in a particular volume of air.",
     "definition": "http://www.qudt.org/qudt/owl/1.0.0/quantity/Instances.html#AbsoluteHumidity",
-    "@iot.id": "atmosphericpressure"
+    "@iot.id": "humidity"
 }
 
 observedproperty_atpress = {

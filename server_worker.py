@@ -3,7 +3,7 @@
 
 # # imports
 
-# In[1]:
+# In[ ]:
 
 
 import requests
@@ -28,7 +28,7 @@ import default_entities
 
 # # logging
 
-# In[2]:
+# In[ ]:
 
 
 log = logging.getLogger("server_worker")
@@ -48,7 +48,7 @@ log.addHandler(sh)
 
 # # run()
 
-# In[3]:
+# In[ ]:
 
 
 def run(q, sturl, rawdata):
@@ -65,7 +65,7 @@ def run(q, sturl, rawdata):
 
 # # class: DataHandler
 
-# In[4]:
+# In[ ]:
 
 
 class DataHandler:
@@ -312,7 +312,7 @@ class DataHandler:
 
 # # tests
 
-# In[5]:
+# In[ ]:
 
 
 if __name__ ==  "__main__":
